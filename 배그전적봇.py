@@ -838,6 +838,5 @@ async def on_message(message):
             await message.channel.send("Error : 플레이어를 찾을 수 없습니다", embed=embed)
     
         
-
-
-client.run("NzY4MzcyODQ1MTMwMjg1MDU3.X4_g-Q.NjqW-DiUHZ0o-nP90odFUOgdPiE")
+acces_token = os.environ["BOT_TOKEN"]
+client.run(acces_token)
